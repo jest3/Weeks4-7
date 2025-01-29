@@ -22,16 +22,16 @@ public class EnableDisable : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            //sr.enabled = false;
+            sr.enabled = false;
             //script.enabled = false;
-            go.SetActive(false);
+            //go.SetActive(false);
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            //sr.enabled = true;
+            sr.enabled = true;
             //script.enabled = true;
-            go.SetActive(true);
+            //go.SetActive(true);
         }
 
         if(Input.GetKey(KeyCode.Space))
